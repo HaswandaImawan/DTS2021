@@ -1,0 +1,295 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: #E59366;
+  position: fixed;
+  top: 0;
+  opacity: 0.7;
+  z-index: 10;
+}
+
+header h2 {
+  size: : 25px;
+  margin-top: 13px;
+  font-family: "Brush Script MT", Cursive;
+  color: white;
+
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+/*PORTOFOLIO*/
+.portofolio {
+  padding: 180px 0 100px 0;
+  background-image: url(https://cdn.pixabay.com/photo/2016/03/09/10/37/light-bulb-1246043_960_720.jpg);
+  background-size: cover;
+  color: white;
+  text-align: left;
+}
+
+.portofolio h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  margin-right: 300px;
+}
+
+.portofolio p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+  margin-right: 300px;
+}
+
+.btn-wrapper {
+  text-align: left;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.more {
+  border-style: solid;
+  border-color: white;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: left;
+  font-family: "Lucida Handwriting", Cursive;
+}
+
+.more:hover {
+  background-color: white;
+  border-color: white;
+  color: black;
+}
+
+.training {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+  text-align: center;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.type-left {
+  float: left;
+  margin-left: 70px;
+  background-color: #E59366;
+  border-radius: 8px;
+}
+
+.type-icon-left {
+  position: relative;
+  height: 350px;
+  width: 350px;
+}
+
+.type-icon-left img {
+  position: absolute;
+  top: 125px;
+  right: -5px;
+  width: 100%;
+}
+
+.types-left h2 {
+  text-align: center;
+  margin-right: 70px;
+  float: right;
+  width: 50%;
+  margin-top: 50px;
+  font-size: 50px;
+  color: #333333;
+}
+
+.types-left p {
+  margin-right: 70px;
+  float: right;
+  margin-top: -10px;
+  width: 50%;
+  font-size: 20px;
+  color: #333333;
+  text-align: center;
+}
+
+.btn-training-left {
+  text-align: center;
+  margin: 10px 0;
+  font-color: black;
+}
+
+.btn1-left {
+  padding: 5px 15px;
+  color: black;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+  font-family: "Lucida Handwriting", Cursive;
+}
+
+.train-left {
+  border-style: solid;
+  border-color: black;
+}
+
+.train-left:hover {
+  background-color: #E59366;
+  border-color: #E59366;
+  color: white;
+}
+
+.type-right {
+  float: right;
+  margin-right: 70px;
+  background-color: #E59366;
+  border-radius: 8px;
+}
+
+.type-icon-right {
+  position: relative;
+  height: 350px;
+  width: 350px;
+}
+
+.type-icon-right img {
+  position: absolute;
+  top: 125px;
+  right: -5px;
+  width: 100%;
+}
+
+.types-right h2 {
+  text-align: center;
+  margin-left: 70px;
+  float: left;
+  width: 50%;
+  margin-top: 50px;
+  font-size: 50px;
+  color: #333333;
+}
+
+.types-right p {
+  margin-left: 70px;
+  float: left;
+  margin-top: -10px;
+  width: 50%;
+  font-size: 20px;
+  color: #333333;
+  text-align: center;
+}
+
+.btn-training-right {
+  text-align: center;
+  margin: 10px 0;
+  font-color: black;
+}
+
+.btn1-right {
+  padding: 5px 15px;
+  color: black;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+  font-family: "Lucida Handwriting", Cursive;
+}
+
+.train-right {
+  border-style: solid;
+  border-color: black;
+}
+
+.train-right:hover {
+  background-color: #E59366;
+  border-color: #E59366;
+  color: white;
+}
+
+.join {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.joining {
+  padding: 15px 40px;
+  background-color: #E59366;
+  cursor: pointer;
+  box-shadow: 0 7px #644531;
+}
+
+.joining:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 20px;
+  text-align: center;
+}
+
+footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #eee;
+}

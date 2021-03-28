@@ -1,0 +1,62 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  
+  .portofolio h1 {
+    font-size: 32px;
+    margin-right: 10px;
+  }
+}
+
+  .type {
+   	width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .heading h2 {
+    font-size: 20px;
+  }
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+
+  .header-right {
+    display: none;
+  }
+
+  .btn {
+    width: 50%;
+  }
+
+  .more {
+  	width: 50%
+  }
+  
+  .portofolio {
+    text-align: left;
+    margin-right: 10px;
+  }
+  
+  .portofolio h1 {
+    font-size: 24px;
+    line-height: 36px;
+    margin-right: 10px;
+  }
+  
+  .portofolio p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-right: 10px;
+  }
+
+  .type-left .type-right {
+    width: 100%;
+  }
+
+  .type-icon-left .type-icon-right {
+    display: block;
+  }
+
+  footer {
+    text-align: center;
+  }
+}
